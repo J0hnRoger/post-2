@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="CSharpFunctionalExtensions" Version="2.40.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.7" />
+        <PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="7.0.7" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.7" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.7" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Practical.Notification.Application\Practical.Notification.Application.csproj" />
+    </ItemGroup>
+</Project>
