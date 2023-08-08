@@ -5,5 +5,5 @@ namespace Practical.Notification.Infrastructure.Identity;
 
 public class ApplicationUser : IdentityUser 
 {
-    public List<AspNetUserNotification> BmmNotifications { get; set; }
+    public List<AspNetUserNotification> Notifications { get; set; }
 }

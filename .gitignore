@@ -481,6 +481,7 @@ $RECYCLE.BIN/
 .idea/
 
 #SQLLite files
-./Practical.Notification.Api/*.sqlite
-./Practical.Notification.Api/*.sqlite-shm
-./Practical.Notification.Api/*.sqlite-wal
+Practical.Notification.Api/*.sqlite
+Practical.Notification.Api/notificationDb.sqlite-shm
+Practical.Notification.Api/notificationDb.sqlite-wal
+Practical.Notification.Api/notificationDb.sqlite
