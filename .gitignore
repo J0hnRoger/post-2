@@ -485,3 +485,6 @@ Practical.Notification.Api/*.sqlite
 Practical.Notification.Api/notificationDb.sqlite-shm
 Practical.Notification.Api/notificationDb.sqlite-wal
 Practical.Notification.Api/notificationDb.sqlite
+Practical.Notification.Api/notificationDb.sqlite
+Practical.Notification.Api/notificationDb.sqlite-shm
+Practical.Notification.Api/notificationDb.sqlite-wal
