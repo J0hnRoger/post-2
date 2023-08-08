@@ -45,8 +45,7 @@ public class PortalContextInitialiser
             existing = tester;
         }
     
-        // Default data
-        // Seed, if necessary
+        // Sample data
         if (!_context.Notifications.Any())
         {
             var newVersionNotification = new Application.DAO.Notification() 

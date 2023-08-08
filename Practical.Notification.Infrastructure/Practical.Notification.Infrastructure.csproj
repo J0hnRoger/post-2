@@ -17,4 +17,9 @@
     <ItemGroup>
       <ProjectReference Include="..\Practical.Notification.Application\Practical.Notification.Application.csproj" />
     </ItemGroup>
+    <ItemGroup>
+      <Reference Include="Practical.Notification.Application">
+        <HintPath>..\Practical.Notification.Api\bin\Debug\net7.0\Practical.Notification.Application.dll</HintPath>
+      </Reference>
+    </ItemGroup>
 </Project>

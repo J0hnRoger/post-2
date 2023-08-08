@@ -1,20 +1,15 @@
-using AutoMapper;
-using MediatR;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Practical.Notification.Api.Models;
 using Practical.Notification.Application.DAO;
 using Practical.Notification.Infrastructure.Identity;
 using Practical.Notification.Infrastructure.Persistence;
-using SQLitePCL;
 
 namespace Practical.Notification.Api.Controllers;
 
 [ApiController]
-[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+[Authorize]
 [Route("api/[controller]")]
 public class NotificationController : ControllerBase
 {
@@ -31,7 +26,7 @@ public class NotificationController : ControllerBase
     }
 
     /// <summary>
-    /// Recupere l'ensemble des notifications d'un utilisateur.
+    /// Récupere l'ensemble des notifications d'un utilisateur.
     /// </summary>
     [HttpGet]
     public async Task<ActionResult<List<NotificationDTO>>> GetNotifications()
